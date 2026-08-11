@@ -1,0 +1,4 @@
+variable_bound_tightening = on
+mip_rel_gap = 0
+time_limit = 7200
+threads = 1

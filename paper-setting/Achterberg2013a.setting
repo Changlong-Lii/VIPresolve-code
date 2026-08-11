@@ -1,0 +1,5 @@
+variable_bound_tightening = on
+variable_bound_tightening_knap2013 = on
+mip_rel_gap = 0
+time_limit = 7200
+threads = 1
