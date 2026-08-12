@@ -35,7 +35,7 @@ cmake --build build
 # run LCPVI
 ./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI.setting
 # run LCPVI'
-./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI-prime.setting
+./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI\'.setting
 # run AVIC
 ./build/bin/highs /path/to/your/instance --options_file ../paper-settings/AVIC.setting
 # run All
