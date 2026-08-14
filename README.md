@@ -32,14 +32,15 @@ cmake --build build
 ```shell
 # run Default
 ./build/bin/highs /path/to/your/instance --options_file ../paper-settings/Default.setting
-# run LCPVI
-./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI.setting
-# run LCPVI'
-./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI\'.setting
 # run AVIC
 ./build/bin/highs /path/to/your/instance --options_file ../paper-settings/AVIC.setting
+# run LCPVI
+./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI.setting
+# run Achterberg2013
+./build/bin/highs /path/to/your/instance --options_file ../paper-settings/Achterberg2013.setting
+# run LCPVI'
+./build/bin/highs /path/to/your/instance --options_file ../paper-settings/LCPVI_prime.setting
 # run All
 ./build/bin/highs /path/to/your/instance --options_file ../paper-settings/All.setting
-# run Achterberg2013a
-./build/bin/highs /path/to/your/instance --options_file ../paper-settings/Achterberg2013a.setting
 ```
+* Detailed instance-wise results are available in the csv file summary.csv within this repository: https://github.com/Changlong-Lii/VI-Presolve.
